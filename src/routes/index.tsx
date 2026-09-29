@@ -215,7 +215,7 @@ function Portfolio() {
               <p>My work is grounded in practical outcomes: faster research, clearer workflows, and tools people can confidently use.</p>
               <div className="story-links">
                 <a href={latestResume.url} target="_blank" rel="noreferrer">Resume <ArrowUpRight /></a>
-                <a href="www.linkedin.com/in/jitesh0510" target="_blank" rel="noreferrer">LinkedIn <ArrowUpRight /></a>
+                <a href="https://www.linkedin.com/in/jitesh0510" target="_blank" rel="noreferrer">LinkedIn <ArrowUpRight /></a>
                 <a href="https://github.com/Jitesh050" target="_blank" rel="noreferrer">GitHub <ArrowUpRight /></a>
               </div>
             </div>
@@ -278,7 +278,7 @@ function Portfolio() {
               {notice && <p role="status" className="form-notice">{notice}</p>}
             </form>
           </div>
-          <footer><span>© 2026 Jitesh K.</span><span>Bengaluru, India</span><div><a href="https://www.linkedin.com/in/jitesh-k05/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://github.com/Jitesh050" target="_blank" rel="noreferrer">GitHub</a></div></footer>
+          <footer><span>© 2026 Jitesh K.</span><span>Bengaluru, India</span><div><a href="https://www.linkedin.com/in/jitesh0510" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://github.com/Jitesh050" target="_blank" rel="noreferrer">GitHub</a></div></footer>
         </section>
       </main>
 
