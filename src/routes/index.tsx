@@ -13,6 +13,7 @@ const comphubDemo = m("videos/comphub-demo.mp4");
 const sentinalDemo = m("videos/sentinal-demo.mp4");
 const mvjCertificate = m("certificates/mvj-course-completion.pdf");
 const latestResume = m("docs/jitesh-k-resume.pdf");
+const sentiusInternshipLetter = m("certificates/sentius-internship-letter.pdf");
 const adobeHackathonCertificate = m("certificates/adobe-india-hackathon.pdf");
 const androidWorkshopCertificate = m("certificates/android-workshop.pdf");
 const backendWorkshopCertificate = m("certificates/backend-workshop.pdf");
@@ -58,7 +59,7 @@ const projects: Project[] = [
 
 const timeline = [
   { category: "work", date: "Jul 2026 — Present", title: "AI Engineer", subtitle: "Sentius Technologies Pvt Ltd · Full-time", logo: "/img/sentius_logo.png", description: "Developing production AI models, scalable inference pipelines, and LLM-powered services for enterprise applications.", certificate: undefined, tags: ["Python", "FastAPI", "LLMs", "RAG"] },
-  { category: "internship", date: "Jan — Jun 2026", title: "AI Engineer Intern", subtitle: "Sentius Technologies Pvt Ltd · 6-month internship", logo: "/img/sentius_logo.png", description: "Built and validated AI applications and inference pipelines, leading to a full-time conversion.", certificate: undefined, tags: ["Python", "PyTorch", "Machine Learning"] },
+  { category: "internship", date: "Jan — Jun 2026", title: "AI Engineer Intern", subtitle: "Sentius Technologies Pvt Ltd · 6-month internship", logo: "/img/sentius_logo.png", description: "Built and validated AI applications and inference pipelines, leading to a full-time conversion.", certificate: sentiusInternshipLetter.url, tags: ["Python", "PyTorch", "Machine Learning"] },
   { category: "college", date: "2024 — 2025", title: "President", subtitle: "NIC Club · MVJ College of Engineering", logo: "/img/nic_logo.png", description: "Led a 30+ member technical club, organized AI workshops and hackathons, and mentored junior developers.", certificate: nicPresidentCertificate.url, tags: ["Leadership", "Mentoring"] },
   { category: "college", date: "2022 — 2026", title: "B.E. Computer Science", subtitle: "MVJ College of Engineering · VTU", logo: "/img/MVJ logo.png", description: "Completed a Bachelor of Engineering in Computer Science & Engineering.", certificate: mvjCertificate.url, tags: ["Computer Science", "Engineering"] },
 ];
